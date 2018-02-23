@@ -1,0 +1,364 @@
+body {
+    font-size: 10px;
+    font-family: 'Oswald', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+h3 {
+    font-size: 3em;
+}
+
+h4 {
+    font-size: 1.2em;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+/*Nav*/
+
+.logo img {
+    float: left;
+}
+
+header .sectionContainer.break {
+    background-color: #ebebeb;
+    border: 3px #d7d7d7 solid;
+}
+
+.number {
+    position: relative;
+    float: right;
+    font-size: 2.8em;
+}
+
+.number img {
+    position: relative;
+    top: 4px;
+}
+
+.makeAnAppointment {
+    float: right;
+    background-color: #adc805;
+    font-size: 2.8em;
+    margin-right: 10px;
+    padding: 0 10px;
+    color: #fff;
+}
+
+nav a {
+    float: right;
+    font-size: 3.8em;
+    text-decoration: inherit;
+    color: #000;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    float: right;
+    font-size: 3.8em;
+    text-decoration: inherit;
+    color: #000;
+    margin: 0 10px;
+    border-bottom: 3px #adc805 solid;
+    padding-bottom: 5px;
+
+}
+
+.slider {
+    background-image: url("/img/slider.png");
+    position: relative;
+    display: flex;
+    background-size: cover;
+    height: 100vh;
+    max-height: 415px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+/**/
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.sectionContainer {
+    width: 1000px;
+    margin: 40px auto;
+    overflow: hidden;
+}
+
+.headerText {
+    border-left: 3px #adc805 solid;
+    padding-left: 5px;
+}
+
+
+.aboutUsContainer {
+    position: relative;
+}
+
+.aboutUsText {
+    float: left;
+    width: 50%;
+    font-size: 1.6em;
+    line-height: 1.8;
+}
+
+.aboutUsPhoto {
+    float: right;
+    width: 40%;
+    padding: 0 20px;
+}
+
+.aboutUsPhoto img {
+
+    max-height: 300px;
+}
+
+.aboutUsPhotoVertical {
+    position: relative;
+    float: left;
+    top: 180px;
+    height: 800px;
+}
+
+.aboutUsGallery {
+    width: 555px;
+    float: right;
+    position: relative;
+    top: 210px;
+}
+
+.aboutUsGallery img {
+    width: 175px;
+    height: 175px;
+    padding: 0;
+    margin: 0;
+}
+
+/*Personel*/
+
+.personelContainer {
+    margin: 40px 0;
+}
+
+.person {
+    float: left;
+    width: 25%;
+    font-size: 1.8em;
+    font-weight: 600;
+}
+
+.person img {
+    border-radius: 50%;
+    width: 200px;
+}
+
+.person span {
+    color: #adc805;
+}
+
+.name {
+    padding: 5px;
+}
+
+/*Why we*/
+
+.whyWe {
+    width: 60%;
+    float: left;
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.whyWeIcon {
+    background-color: #6dcff6;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    float: left;
+    margin: 40px 75px;
+}
+
+.whyWeIcon img {
+    margin: 25px;
+    width: 100px
+}
+
+.icons {}
+
+
+.whyWeImg {
+    float: right;
+    width: 40%;
+    height: 100%;
+    overflow: hidden;
+}
+
+/*Offer*/
+
+.offer {
+    float: left;
+    position: relative;
+}
+
+.offer:nth-child(3) {
+    margin: 0 66.6px;
+}
+
+.offer:nth-child(4) {
+    margin-right: 66.6px
+}
+
+.offer::before {
+    content: '';
+    opacity: 0.6;
+    position: absolute;
+    bottom: 3px;
+    width: 200px;
+    height: 50px;
+    background-color: #adc805;
+
+}
+
+.offerText {
+    font-size: 1.9em;
+    color: #f2f2f2;
+    position: absolute;
+    bottom: 15px;
+    left: 10px;
+}
+
+/*Contact*/
+
+.contactContainer {
+    float: left;
+    width: 33.33%;
+    font-size: 2.6em;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+}
+
+.contactContainer .input {
+    font-size: 0.8em;
+    border: none;
+    background-color: #ebebeb;
+    padding: 5px
+}
+
+.contactContainer textarea {
+    font-size: 0.8em;
+    /*    border: none;*/
+    background-color: #ebebeb;
+    padding: 5px;
+    margin-top: 8px;
+    width: 245px;
+    height: 140px;
+}
+
+.contactContainer input:last-child {
+    font-size: 0.8em;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    background-color: #6dcff6;
+    padding: 5px 15px;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
+/*Footer*/
+
+.footer {
+    background-color: #ebebeb;
+
+}
+
+.footerContainer {
+    width: 1000px;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.footerLogo {
+    float: left;
+    width: 25%;
+    font-size: 3em;
+    font-weight: 600;
+    position: relative;
+    top: 50px;
+}
+
+.footerCopyright {
+    color: #fff;
+    letter-spacing: 1.4px;
+    background-color: #252525;
+    text-align: center;
+    font-size: 1.4em;
+    padding: 1px;
+}
+
+.footerText {
+    float: left;
+    width: 200px;
+    margin: 0px;
+    font-size: 2em;
+    margin-left: 50px;
+}
+
+.footerText p {
+    margin: 10px 0;
+}
+
+/*RWD*/
+
+@media(max-width: 768px) {
+    header .sectionContainer.break {
+        border: 0px #d7d7d7 solid;
+    }
+    .sectionContainer {
+        width: 768px;
+    }
+    .container {
+        width: 768px;
+    }
+    .footerContainer {
+        width: 768px;
+    }
+    .slider {
+        width: 100%;
+    }
+    .person {
+        float: left;
+        width: 30%;
+        margin-left: 15%;
+    }
+    .whyWeIcon {
+        margin: 40px 35px;
+    }
+    .offer:nth-child(2) {
+        margin-left: 20%;
+    }
+    .offer:nth-child(4) {
+        margin-left: 20%;
+    }
+    .contactContainer {
+        padding: 10px 30%;
+    }
+    .footerLogo {
+        top: 0;
+        width: 100%;
+    }
+    .aboutUsGallery {
+        width: 100%;
+        float: none;
+        position: relative;
+        top: 210px;
+        margin-left: 100px;
+    }
+}
